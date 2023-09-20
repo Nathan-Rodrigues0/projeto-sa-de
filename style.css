@@ -18,13 +18,15 @@ main {
     width: 620px;
     height: 440px;
     display: flex;
-    background-color: blueviolet;
+    box-shadow: 5px 10px 40px hsla(230, 100%, 50%, 0.114);
+    border-radius: 30px;
 }
 
 .result {
-    background-color: rgb(202, 131, 131); 
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     width: 310px;
     border-radius: 30px;
+    color: white;
  }   
 
 h2, h3 {
@@ -39,12 +41,13 @@ h2{
 
  h3 {
     font-size: 22px;
+    color: rgba(255, 255, 255, 0.518);
  }
 
 .num-1 {
     margin: 30px auto;
     padding-top: 40px;
-    background-color: chartreuse;
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
     color: white;
     border-radius: 50%;
     height: 130px;
@@ -56,7 +59,7 @@ h2{
 
 .num-2 {
     margin-top: -80px;
-    color: white;
+    color: rgba(255, 255, 255, 0.518);
  }
 
 .result > p {
@@ -67,11 +70,11 @@ h2{
 
 .text {
     padding-top: 10px;
+    color: rgba(255, 255, 255, 0.518);
 }
 /* parte 2 */
 
 .summary {
-    background-color: lightblue;
     width: 310px;
     border-radius: 0 30px 30px 0;
 }
@@ -79,29 +82,78 @@ h2{
 #titulo-2 {
     text-align: left;
     padding-left: 30px;
+    color: hsl(224, 30%, 27%);
 }
 
 .summary > div {
     text-align: left;
-    font-size: 16px;
-    background-color: aqua;
+    font-size: 15.5px;
     height: 45px;
     width: 250px;
     margin: 20px auto; 
     display: flex;
+    border-radius: 8px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.055);
 }
 
 img {
     padding: 0px 0px 0px 10px;
-    width: 20px;
+    width: 18px;
+}
+
+strong {
+    color: hsl(224, 30%, 27%);
+}
+
+#frase-2, .ajuste-frase {
+    color: rgba(0, 0, 0, 0.412);
+    padding-left: 70px;
 }
 
 #frase {
     padding-left: 10px;
-    margin-top: 13px;
+    margin-top: 12px;
+    font-weight: bolder;
+   
 }
 
-div > span {
-    text-align: right;
+#react {
+    color: hsl(0, 100%, 67%);
+    background-color: hsla(0, 100%, 67%, 0.074);
 }
 
+#memory {
+    color: hsl(39, 100%, 56%);
+    background-color: hsl(39, 100%, 56%, 0.074);
+}
+
+#verbal {
+    color: hsl(166, 100%, 37%);
+    background-color: hsl(166, 100%, 37%, 0.074);
+}
+
+#visual {
+    color: hsl(234, 85%, 45%);
+    background-color: hsl(234, 85%, 45%, 0.074);
+}
+
+.ajuste-frase {
+    padding-left: 84px;
+}
+
+button {
+    margin: 38px auto;
+    display: block;
+    border-radius: 30px;
+    border: none;
+
+    width: 248px;
+    height: 48px;
+    font-weight: bolder;
+    font-size: 15px;
+
+    text-align: center;
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: white;
+    cursor: pointer;
+}
