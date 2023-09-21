@@ -157,3 +157,66 @@ button {
     color: white;
     cursor: pointer;
 }
+
+.attribution {
+    margin: 10px auto;
+    background-color: black;
+    color: white;
+    height: 30px;
+    padding-top: 10px;
+}
+
+@media (max-width: 600px) {
+    main {
+        width: 400px;
+        height: 900px;
+        margin: auto;
+        display: block;
+    }
+
+    .result {
+        height: 400px;
+        width: 400px;
+        margin-top: -30px;
+        border-radius: 0px 0px 30px 30px ;
+    }
+
+    .result > h3 {
+        padding-top: 20px;
+    }
+
+    .summary {
+        height: 450px;
+        width: 400px;
+    }
+
+    .summary > div {
+        margin: 30px auto;
+        width: 350px;
+        height: 55px;
+    }
+
+    #frase {
+        padding-top: 6px;
+    }
+
+    #frase-2 {
+        padding-left: 170px;
+    }
+
+    .ajuste-frase {
+        padding-left: 183px;
+    }
+
+    #titulo-2 {
+        font-size: 20px;
+    }
+
+    button {
+        width: 350px;
+        height: 55px;
+        font-size: 18px;
+        margin-top: -5px;
+        background-color: hsl(224, 30%, 27%);
+    }
+}
